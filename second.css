@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+body{
+    width: 960px;
+    margin: 0 auto;
+   background-color:lightblue;
+}
+h1{
+    text-align: center;
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+h3{
+    text-align: center;
+    font-family: "Lato", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+p{
+    font-family: "serif", Lato;
+    font-weight: 700;
+    font-style: italic; 
+    color: darkorange;
+    text-transform: uppercase;      
+
+}
+
+.tcontainer {
+    /* Optional: Set a width if needed */
+    width: 90%;
+    td{
+        text-align: left;
+        border: 3px solid #221010;
+    }th{
+        text-align: center;
+        border: 3px solid #c7db12;
+        text-transform: uppercase;
+    }
+    /*border-collapse: collapse;*/
+  }
